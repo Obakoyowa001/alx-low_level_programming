@@ -8,9 +8,9 @@ int main(void)
 {
 	int a;
 
-	while (a < = 0)
+	while (a >= 0)
 	{
-		printf("%d\n" a);
+		printf("%i\n", a);
 		a = a + 1;
 	}
 	return (0);
