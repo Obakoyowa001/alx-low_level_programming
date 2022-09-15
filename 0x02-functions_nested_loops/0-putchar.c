@@ -1,20 +1,20 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always0 (success)
- */
+ * *main - entry point
+ * *Return: 0 (Success)
+ * */
 int main(void)
 {
-	int i =0;
+	int i = 0;
 	char text[] = "_putchar";
 
-	while (text[i]);
+	while (text[i] != '\0')
 	{
 		_putchar(text[i]);
 		i++;
 	}
-	_putchar('\n')
+	_putchar('\n');
 
 	return (0);
-}
+} 
+
